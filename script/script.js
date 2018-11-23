@@ -1,0 +1,40 @@
+$(function(){
+  $("#cacher_a").click(function(){
+    $(".about_me_on").show();
+    $(".about_me_off").hide();
+    $(".projects_on").hide();
+    $(".projects_off").show();
+    $(".contact_on").hide();
+    $(".contact_off").show();
+  });
+});
+$(function(){
+  $("#cacher_p").click(function(){
+    $(".about_me_on").hide();
+    $(".about_me_off").show();
+    $(".projects_on").show();
+    $(".projects_off").hide();
+    $(".contact_on").hide();
+    $(".contact_off").show();
+  });
+});
+$(function(){
+  $("#cacher_c").click(function(){
+    $(".about_me_on").hide();
+    $(".about_me_off").show();
+    $(".projects_on").hide();
+    $(".projects_off").show();
+    $(".contact_on").show();
+    $(".contact_off").hide();
+  });
+});
+$(function(){
+  $(".home").click(function(){
+    $(".about_me_on").hide();
+    $(".about_me_off").show();
+    $(".projects_on").hide();
+    $(".projects_off").show();
+    $(".contact_off").show();
+    $(".contact_on").hide();
+  });
+});
